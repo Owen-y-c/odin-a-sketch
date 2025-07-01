@@ -1,0 +1,13 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px; /* or any fixed/relative size */
+  height: 640px;
+  border: 1px solid black;
+}
+
+.gridPixel {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  /* Width and height based on gridSize — to be set dynamically via JS or CSS variable */
+}
